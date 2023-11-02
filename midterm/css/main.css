@@ -1,0 +1,134 @@
+*{
+    font-family: sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(93, 164, 157); /* set page background colour */
+}
+
+main{
+    background-color: #aad4cf; /* set inner section background colour */
+    width: 60%; /* set inner section width */
+    margin: auto;
+}
+
+header{
+    /* put text inside header image and center */
+    position: relative;
+    text-align: center;
+}
+
+header img{
+    width: 100%;
+}
+
+.header-text{
+    /* put text inside header image */
+    position: absolute; 
+    /* text spacing and location inside header image */
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text properties */
+    color: white;
+    font-size: 3.5rem;
+}
+
+nav{
+    /* space between nav elements */
+    justify-content: space-between;
+    display: flex;
+    /* spacing */
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+}
+
+nav a{
+    /* nav element properties */
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+article{
+    /* article spacing */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.title-starfish-life{
+    /* "Life of a Starfish" spacing and properties */
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.starfish{
+    /* set starfish image width and location */
+    width: 15rem;
+    clear: left;
+    float: left;
+    /* spacing */
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title-starfish-general{
+    /* "Facts About Starfish" and "Contact to learn more" spacing and properties */
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+}
+
+form{
+    /* form spacing and properties */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+.form-text{
+    /* form sections spacing */
+    margin-bottom: 1rem;
+}
+
+.form-text input{
+    /* form input boxes spacing and properties */
+    margin-top: 0.5rem;
+    width: 100%;
+    border-color: lightgray;
+}
+
+#message{
+    /* message input height */
+    height: 5rem;
+}
+
+.button{
+    /* send button spacing */
+    margin-top: 1rem;
+}
+
+#send{
+    /* send button properties */
+    background-color: transparent;
+    padding: 0.75rem;
+}
+
+footer{
+    /* footer spacing and properties */
+    padding-bottom: 2rem;
+    margin-right: 3rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
